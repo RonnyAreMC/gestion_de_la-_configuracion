@@ -11,6 +11,7 @@ export default function Footer() {
         </ul>
         <p>Av. Principal 123 · 099 999 9999</p>
         <p>© 2026 Café Aroma — Hecho con React</p>
+        <p>Desarrollado por Elias Ramos programador Full Stack y sus compañeros</p>
       </div>
     </footer>
   )
