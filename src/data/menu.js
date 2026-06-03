@@ -48,4 +48,11 @@ export const menuItems = [
     precio: '$3.40',
     img: 'https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=600&q=80',
   },
+  {
+    id: 8,
+    nombre: 'Mocaccino Avellana',
+    descripcion: 'Espresso con chocolate, leche cremosa y un toque de avellana tostada.',
+    precio: '$3.90',
+    img: 'https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=600&q=80',
+  },
 ]
