@@ -63,7 +63,13 @@ Para ver todas las ramas (locales y remotas):
 git branch -a
 ```
 
-<!-- SNAPSHOT_RAMAS -->
+Ramas existentes en este repositorio:
+```
+  develop
+  feature/dockerizacion
+  feature/documentacion
+* main
+```
 
 ---
 
@@ -84,7 +90,20 @@ Relación sugerida de commits por rol (cada integrante commitea desde su cuenta)
 | Backend | Validaciones del formulario. |
 | Documentador | "Documentacion: README y evidencias". |
 
-<!-- SNAPSHOT_COMMITS -->
+Historial real del repositorio (`git log --oneline --graph --all`):
+```
+*   ccb8ae3 Release: dockerizacion y documentacion del sistema
+|\
+| *   c176ba7 Merge feature/documentacion en develop
+| |\
+| | * d0791cc Documentacion: README del proyecto integrador y evidencias
+| |/
+| * 8194767 Merge feature/dockerizacion en develop
+|/|
+| * 1e1ebd5 Agrega Dockerfile multietapa, nginx y docker-compose
+|/
+* 04f853a first commit
+```
 
 ---
 
