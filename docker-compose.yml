@@ -1,0 +1,13 @@
+# ============================================================
+#  Docker Compose (punto extra)
+#  Levanta el sistema con un solo comando: docker compose up
+# ============================================================
+services:
+  web:
+    build: .
+    container_name: gestion-config-web
+    ports:
+      - "8080:80"          # host:contenedor -> http://localhost:8080
+    environment:
+      - APP_ENV=production # variable de entorno de ejemplo
+    restart: unless-stopped
