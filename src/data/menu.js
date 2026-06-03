@@ -41,4 +41,11 @@ export const menuItems = [
     precio: '$3.80',
     img: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80',
   },
+  {
+    id: 7,
+    nombre: 'Té Chai Latte',
+    descripcion: 'Té negro especiado con leche vaporizada, canela y cardamomo.',
+    precio: '$3.40',
+    img: 'https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=600&q=80',
+  },
 ]
